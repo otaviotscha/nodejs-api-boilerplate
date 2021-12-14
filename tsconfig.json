@@ -1,0 +1,69 @@
+{
+  "compilerOptions": {
+    // "incremental": true,
+    "target": "ES5",
+    "module": "CommonJS",
+    // "lib": [],
+    "allowJs": false,
+    // "checkJs": true,
+    // "jsx": "preserve",
+    // "declaration": true,
+    // "declarationMap": true,
+    // "sourceMap": true,
+    // "outFile": "./",
+    //"outDir": "./dist",
+    // "rootDir": "./",
+    // "composite": true,
+    // "tsBuildInfoFile": "./",
+    // "removeComments": true,
+    // "noEmit": true,
+    // "importHelpers": true,
+    "downlevelIteration": true,
+    // "isolatedModules": true,
+
+    "strict": true,
+    // "noImplicitAny": true,
+    // "strictNullChecks": true,
+    // "strictFunctionTypes": true,
+    // "strictBindCallApply": true,
+    "strictPropertyInitialization": false,
+    // "noImplicitThis": true,
+    // "alwaysStrict": true,
+
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noImplicitReturns": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "noUncheckedIndexedAccess": true,
+    // "noImplicitOverride": true,
+    // "noPropertyAccessFromIndexSignature": true,
+
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["./src/*"],
+      "helpers/*": ["./tests/helpers/*.ts"]
+    },
+    // "rootDirs": [],
+    "typeRoots": ["node_modules/@types"],
+    // "types": [],
+    // "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // "preserveSymlinks": true,
+    // "allowUmdGlobalAccess": true,
+
+    // "sourceRoot": "",
+    // "mapRoot": "",
+    "inlineSourceMap": true,
+    // "inlineSources": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules"]
+}
